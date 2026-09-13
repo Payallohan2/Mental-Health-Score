@@ -3,6 +3,8 @@
 This project is an interactive **Streamlit web app** built from my Kaggle notebook:  
 [📓 Mental Health Score Notebook](https://www.kaggle.com/code/payallohan/mental-health-score)
 
+app link : https://mental-health-score-tv9lfak7brab2ruubxqjtx.streamlit.app/
+
 The app allows users to explore mental health scores, stress levels, and daily usage hours with interactive visualizations.
 
 ---
