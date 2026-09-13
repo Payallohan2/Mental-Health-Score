@@ -25,7 +25,7 @@ avg_daily_usage = st.slider("Average Daily Usage (hours)", 0, 24, 4)
 # Build dataframe with all required columns
 input_data = pd.DataFrame({
     "Age": [age],
-    "Gender": [1 if gender == "Male" else 0],  # Example encoding
+    "Gender": [gender],  # keep as string
     "Grouped_country": [grouped_country],
     "Academic_Level": [academic_level],
     "Study_Hours": [study_hours],
