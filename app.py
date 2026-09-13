@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load your dataset (upload or use Kaggle dataset path)
 @st.cache_data
 def load_data():
-    return pd.read_csv("Health_data.csv")  # replace with your dataset file
+    return pd.read_csv("Student Social Media And Mental Health Impact.csv")  
 
 df = load_data()
 
